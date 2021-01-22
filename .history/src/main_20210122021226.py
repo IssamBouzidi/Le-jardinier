@@ -70,7 +70,7 @@ def vegetable_manager():
         print(f'Vegetable: {type(veg).__name__}, number of seed: {veg.nbr_seed}')
     print(f'Vegetables type num: {Garden.type_vegetables}')
 
-    #BONUS 3 : une variable de classe contenant le nombre de type de Légumes dans le jardin
+    #BONUS 3 : Mettre en place une variable de classe contenant le nombre de type de Légumes dans le jardin
     print(f'Total seed sum: {garden.get_seed_sum()}')
 
 

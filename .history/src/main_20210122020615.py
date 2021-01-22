@@ -53,7 +53,6 @@ def vegetable_manager():
     # add grow value
     vegetable_to_plant.grow(9)
 
-    # BONUS 1 : classe Jardinier qui s'occupera de planter les graines en mettant en place un design pattern factory
     # add planted vegetable to the garden
     garden.add(vegetable_to_plant)
 
@@ -69,8 +68,6 @@ def vegetable_manager():
     for veg in garden.list_vegetables:
         print(f'Vegetable: {type(veg).__name__}, number of seed: {veg.nbr_seed}')
     print(f'Vegetables type num: {Garden.type_vegetables}')
-
-    #BONUS 3 : une variable de classe contenant le nombre de type de Légumes dans le jardin
     print(f'Total seed sum: {garden.get_seed_sum()}')
 
 

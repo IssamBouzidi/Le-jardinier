@@ -19,7 +19,6 @@ class Garden:
 
     # setter of a seed sum
     def set_seed_sum(self, seed_sum) -> bool:
-        #BONUS 2 : Lorsque les graines sont supérieures à 30 dans le jardin afficher une erreur
         if self.__seed_sum + seed_sum < 30:
             self.__seed_sum += seed_sum
             return True
